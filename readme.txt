@@ -3,4 +3,5 @@ Git is free software.
 
 New line for test
 
-Creating a new branch is quick & simple. added in dev branch
+Creating a new branch is quick and simple. added in dev branch
+
