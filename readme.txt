@@ -9,4 +9,3 @@ Add new comments!
 
 Add new comments in ubuntu!
 
-delete previous comment
