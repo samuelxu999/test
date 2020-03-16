@@ -5,7 +5,7 @@ test.py
 Created on Oct.9, 2019
 @author: Xu Ronghua
 @Email:  rxu22@binghamton.edu
-@TaskDescription: This module used for functions test.
+@TaskDescription: This module used for merge excel data to support financial report.
 @Reference: 
 '''
 
