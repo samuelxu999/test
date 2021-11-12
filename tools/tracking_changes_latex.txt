@@ -1,0 +1,26 @@
+%============== Add packages here ======================= %
+\usepackage{soul} 
+\usepackage{xcolor} 
+\sethlcolor{yellow} 
+
+%% ============== define  output control to track changes ==============
+%% usage: 
+%%		\def\showtrack{0} means disable tracking delete, \def\showtrack{1} show tracking delete
+%% 		\def\showchange{0} means disable tracking change, \def\showchange{1} show tracking change
+
+\def\showtrack{1} 	% define parameter to show deleted changes 
+\def\showchange{1} 	% define parameter to highlight new changes 
+
+\if\showtrack1
+    \usepackage{ulem}
+    \newcommand\redsout{\bgroup\markoverwith{\textcolor{red}{\rule[0.5ex]{2pt}{0.8pt}}}\ULon} 
+\else
+    \newcommand{\redsout}[1]{} 
+\fi
+
+\if\showchange1
+    \newcommand{\hlc}[1]{{\sethlcolor{yellow}\hl{#1}}} 
+\else
+    \newcommand{\hlc}[1]{{\sethlcolor{white}\hl{#1}}} 
+ \fi
+%% ===================================================================
