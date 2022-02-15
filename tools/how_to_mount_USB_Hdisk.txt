@@ -1,0 +1,13 @@
+## This intruction describe procedures to mount and unmout external USB hard driver storage.
+
+## 1) First check your external usb hard driver under /dev
+sudo fdisk -l
+
+## 2) create folder under /media to mount exxternal storage, like:
+mkdir /media/external
+
+## 3) mount hard driver to your local file system, then use 'df' to check mount status.
+sudo mount -t ntfs-3g /dev/sdh1 /media/external
+
+## 4) Unmount hard driver from local file system, then use 'df' to check mount status.
+sudo umount -l /dev/sdh1
